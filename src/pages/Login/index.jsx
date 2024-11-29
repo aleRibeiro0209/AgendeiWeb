@@ -1,5 +1,5 @@
 import "./login.css";
-import img from "../../constants/imagens"
+import img from "../../constants/imagens";
 import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
