@@ -1,5 +1,7 @@
-import { createRoot } from 'react-dom/client'
+import { createRoot } from 'react-dom/client';
+import App from './App';
+import "./styles/global.css";
 
 createRoot(document.getElementById('root')).render(
-  <h1>Iniciando Painel Administrativo</h1>
+  <App />
 );
